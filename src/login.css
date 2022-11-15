@@ -91,6 +91,7 @@
     color: rgba(255, 255, 255, 0.75);
     margin-top: 10px;
     border: 1px solid rgba(0, 54, 121, 0.75);
+    cursor: pointer;
 }
 
 .forgot-password {
@@ -100,4 +101,12 @@
 
     color: #09922F;
     text-align: right;
+}
+
+.errmsg {
+    color: red;
+    margin-top: -5px;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px
 }

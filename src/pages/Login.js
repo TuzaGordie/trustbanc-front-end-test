@@ -43,6 +43,7 @@ const LoginComponent = () => {
             console.log(JSON.stringify(response?.data));
             // console.log(JSON.stringify(response));
             const session = response?.data?.session
+            
             setUser('')
             setPwd('')
         } catch (err) {

@@ -43,18 +43,75 @@ const HomeComponent = () => {
                             </div>
                             <div className="hr-10"></div>
                             <div className="transactions">
-                            <div className="transaction">
-                                <div className="transaction-info">
-                                    <img src={arrowRed} alt=">" />
+
+                                <div className="transaction">
+                                    <div className="transaction-info">
+                                        <img src={arrowRed} alt=">" />
+                                        <div>
+                                            <span className="text-14">E-CHANNELS</span> <br/>
+                                            <span className="text-12 text-grey">0000015262626273663766262673663672.</span>
+                                        </div>
+                                    </div>
                                     <div>
-                                        <span className="text-14">E-CHANNELS</span> <br/>
-                                        <span className="text-12 text-grey">0000015262626273663766262673663672.</span>
+                                        <p>NGN -1,400.00</p>
                                     </div>
                                 </div>
-                                <div>
-                                    <p>NGN -1,400.00</p>
+
+                                
+                                <div className="transaction">
+                                    <div className="transaction-info">
+                                        <img src={arrowRed} alt=">" />
+                                        <div>
+                                            <span className="text-14">E-CHANNELS</span> <br/>
+                                            <span className="text-12 text-grey">0000015262626273663766262673663672.</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>NGN -1,400.00</p>
+                                    </div>
                                 </div>
-                            </div>
+
+                                <div className="transaction">
+                                    <div className="transaction-info">
+                                        <img src={arrowRed} alt=">" />
+                                        <div>
+                                            <span className="text-14">E-CHANNELS</span> <br/>
+                                            <span className="text-12 text-grey">0000015262626273663766262673663672.</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>NGN -1,400.00</p>
+                                    </div>
+                                </div>
+
+                                <div className="transaction">
+                                    <div className="transaction-info">
+                                        <img src={arrowRed} alt=">" />
+                                        <div>
+                                            <span className="text-14">E-CHANNELS</span> <br/>
+                                            <span className="text-12 text-grey">0000015262626273663766262673663672.</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>NGN -1,400.00</p>
+                                    </div>
+                                </div>
+
+                                <div className="transaction">
+                                    <div className="transaction-info">
+                                        <img src={arrowRed} alt=">" />
+                                        <div>
+                                            <span className="text-14">E-CHANNELS</span> <br/>
+                                            <span className="text-12 text-grey">0000015262626273663766262673663672.</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>NGN -1,400.00</p>
+                                    </div>
+                                </div>
+
+
+
                             </div>
                         </div>
 
