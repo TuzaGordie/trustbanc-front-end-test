@@ -1,0 +1,103 @@
+.login-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(0deg, rgba(0, 54, 121, 0.55), rgba(0, 54, 121, 0.55)),url(../public/images/bg-image.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    width: 798px;
+    height: 474px;
+    display: flex;
+}
+
+.form-content-left{
+    width: 400px;
+    height: 100%;
+    padding: 0 20px;
+    background: #003679;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+ .paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    width: 220px;
+
+}
+
+
+.btn-get-started {
+    width: 220px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003679;
+}
+
+.form-content-right{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.form-group {
+    width: 384px;
+}
+
+.form-input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 54, 121, 0.75);
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    border: 1px solid rgba(0, 54, 121, 0.75);
+}
+
+.forgot-password {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #09922F;
+    text-align: right;
+}

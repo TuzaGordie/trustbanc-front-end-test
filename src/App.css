@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+.home-container {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.side-bar {
+    position: fixed;
+    width: 307px;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    margin-left: 307px;
+    flex: 1;
+    background: #F2F2F2;    
+    padding: 20px;
+    height: 130%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.profile {
+    display: flex;
+    text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.btn-transfer {
+    width: 280px;
+    height: 50px;
+    background: #003679;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.content-left {
+    width: 58% ;
+}
+
+.content-right {
+    width: 40% ;
+}
+
+.account-area {
+    height: 321px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
+
+}
+
+.transaction-history {
+    height: 520px;
+    background: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
+
+}
+
+.frequent-beneficiares {
+    height: 442px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
+    border-radius: 10px;
+}
+
+.target-savings {
+    height: 336px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+p-0 {
+    padding: 0
+}
+
+text-16 {
+    font-size: 16px;
+}
+
+text-12 {
+    font-size: 12px;
 }
