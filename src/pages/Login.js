@@ -3,11 +3,10 @@ import { useRef, useState, useEffect } from 'react';
 import axios from '../api/axios';
 
 import "../login.css"
-import logo from "../Logo.svg"
+import logo from "./Logo.svg"
 
 
 const loginUrl = '/Authentication/LoginUser';
-
 
 const LoginComponent = () => {
 
@@ -43,7 +42,7 @@ const LoginComponent = () => {
             console.log(JSON.stringify(response?.data));
             // console.log(JSON.stringify(response));
             const session = response?.data?.session
-            
+
             setUser('')
             setPwd('')
         } catch (err) {
