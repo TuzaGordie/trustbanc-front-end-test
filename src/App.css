@@ -83,7 +83,46 @@
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
+    padding: 10px 20px;
+}
 
+.transaction-history-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-history-actions .history{
+    font-weight: bold;
+    font-size: 18px;
+    color: #003679;
+}
+
+.transaction-history-actions .download{
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration-line: underline;   
+    color: #C57E37;
+}
+
+.transactions {
+    margin-top: 40px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(155, 155, 155, 0.25);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.transaction-info {
+    display: flex;
+}
+
+.transaction-info img {
+    margin-right: 20px;
 }
 
 .frequent-beneficiares {
@@ -99,7 +138,6 @@
     box-shadow: 0px 1px 4px rgba(186, 185, 185, 0.25);
     border-radius: 10px;
     margin-top: 20px;
-
 }
 
 
@@ -108,16 +146,25 @@
 
 
 
+.hr-10 {
+    width: 50px;
+    height: 6px;
+    background: rgba(197, 126, 55, 0.7);
+    border-radius: 5px;
+}
 
-
-p-0 {
+.p-0 {
     padding: 0
 }
 
-text-16 {
+.text-16 {
     font-size: 16px;
 }
 
-text-12 {
+.text-12 {
     font-size: 12px;
+}
+
+.text-grey {
+    color: #8A8A8A;
 }
